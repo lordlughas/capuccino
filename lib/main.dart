@@ -1,3 +1,4 @@
+import 'package:capuccino/widgets/MyHomePage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,12 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Cappuccino App',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
         useMaterial3: true,
       ),
-      home: Text("Home Page"),
+      home: const MyHomePage(title: "Home Page"),
     );
   }
 }
