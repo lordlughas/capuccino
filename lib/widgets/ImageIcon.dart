@@ -6,6 +6,6 @@ class ImageIcon extends StatelessWidget {
   final String image;
   @override
   Widget build(BuildContext context) {
-    return Image.asset(image);
+    return Image.asset(image, width: 30.0,);
   }
 }
