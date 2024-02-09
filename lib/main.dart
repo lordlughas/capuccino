@@ -1,4 +1,4 @@
-import 'package:capuccino/widgets/MyHomePage.dart';
+import 'package:capuccino/page/MyHomePage.dart';
 import 'package:flutter/material.dart';
 
 void main() {

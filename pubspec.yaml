@@ -62,7 +62,7 @@ flutter:
     - assets/images/arrow-left.jpg
     - assets/images/bean.jpg
     - assets/images/Heart.jpg
-    - assets/images/Rectangle_1706.jpg
+    - assets/images/cappucino.jpg
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -76,7 +76,7 @@ flutter:
 #    - images/bean.jpg
 #     - images/Heart.jpg
 #     - images/milk.jpg
-#     - images/Rectangle_1706.jpg
+#     - images/cappucino.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

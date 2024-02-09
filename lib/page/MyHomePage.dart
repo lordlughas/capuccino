@@ -1,3 +1,4 @@
+import 'package:capuccino/widgets/HeroImageSection.dart';
 import 'package:flutter/material.dart';
 import 'package:capuccino/widgets/ImageIcon.dart' as CustomImageIcon;
 
@@ -10,8 +11,11 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
 
-        leading: Image.asset(
-          'assets/images/arrow-left.jpg',
+        leading: const Padding(
+          padding: EdgeInsets.only(left: 40.0),
+          child: CustomImageIcon.ImageIcon(
+            image: 'assets/images/arrow-left.jpg',
+          ),
         ),
         title: const Center(
             child: Text(
@@ -25,13 +29,20 @@ class MyHomePage extends StatelessWidget {
             )),
         actions: const [
           Padding(
-            padding: EdgeInsets.only(right: 20.0),
+            padding: EdgeInsets.only(right: 50.0),
             child: CustomImageIcon.ImageIcon(image: "assets/images/Heart.jpg"),
           ),
         ],
       ),
+      body: const SingleChildScrollView(
+        child: Column(
+          children: [
+            SizedBox(height: 20.0),
+            HeroImageSection(image: "assets/images/cappucino.jpg"),
 
-
+          ],
+        ),
+      ),
     );
   }
 }
