@@ -1,4 +1,5 @@
 import 'package:capuccino/widgets/HeroImageSection.dart';
+import 'package:capuccino/widgets/TitleSection.dart';
 import 'package:flutter/material.dart';
 import 'package:capuccino/widgets/ImageIcon.dart' as CustomImageIcon;
 
@@ -23,7 +24,7 @@ class MyHomePage extends StatelessWidget {
               style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 30.0,
-                  fontFamily: 'CustomFont',
+                  fontFamily: "CustomFont",
               ),
 
             )),
@@ -39,6 +40,9 @@ class MyHomePage extends StatelessWidget {
           children: [
             SizedBox(height: 20.0),
             HeroImageSection(image: "assets/images/cappucino.jpg"),
+            TitleSection(title: "Cappucino", subTitle: "with Chocolate"),
+            SizedBox(height: 20.0),
+
 
           ],
         ),
