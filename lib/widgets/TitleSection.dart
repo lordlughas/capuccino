@@ -15,16 +15,19 @@ class TitleSection extends StatelessWidget {
                 padding: const EdgeInsets.only(left: 45.0, bottom: 3.0),
                 child: Column(
                   children: [
-                    Row(
-                      children: [
-                        Text(title,
-                          style: const TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 25.0,
-                              fontFamily: "CustomFont"
+                    Padding(
+                      padding: const EdgeInsets.only(top: 5.0, bottom: 3.0),
+                      child: Row(
+                        children: [
+                          Text(title,
+                            style: const TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 25.0,
+                                fontFamily: "CustomFont"
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                     Padding(
                       padding: const EdgeInsets.only(right: 20.0, top: 0.0),
