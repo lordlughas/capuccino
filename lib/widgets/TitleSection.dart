@@ -23,7 +23,8 @@ class TitleSection extends StatelessWidget {
                             style: const TextStyle(
                                 fontWeight: FontWeight.bold,
                                 fontSize: 25.0,
-                                fontFamily: "CustomFont"
+                                fontFamily: "CustomFont",
+                                color: Color(0xFF2f2d2c)
                             ),
                           ),
                         ],

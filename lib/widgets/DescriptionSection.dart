@@ -30,8 +30,8 @@ class DescriptionTitle extends StatelessWidget {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 20.0,
-                color: Colors.black,
-                fontFamily: "CustomFont"
+                color: Color(0xFF2f2d2c),
+                fontFamily: "CustomFont",
               ))
         ],
       ),

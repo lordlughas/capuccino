@@ -9,7 +9,7 @@ class RatingSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(left: 40.0, bottom: 20.0),
+      padding: const EdgeInsets.only(left: 40.0, bottom: 12.0),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
@@ -26,7 +26,8 @@ class RatingSection extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                       fontFamily: "CustomFont",
                       wordSpacing: 5.0,
-                      letterSpacing: 2.0
+                      letterSpacing: 2.0,
+                      color: Color(0xFF2f2d2c)
                     ),
                   ),
                   Text("(230)",

@@ -77,7 +77,7 @@ class TextBox extends StatelessWidget {
           color: Colors.white,
           border: Border.all(
             style: BorderStyle.solid,
-            color: Colors.grey,
+            color: const Color(0xFF9b9b9b),
           ),
           borderRadius: BorderRadius.circular(15)
       ),
@@ -121,6 +121,7 @@ class TextBoxActive extends StatelessWidget {
           fontFamily: "Sora",
           fontWeight: FontWeight.bold,
           fontSize: 20.0,
+          color: Color(0xFFC67C4E),
 
         ),
       ),

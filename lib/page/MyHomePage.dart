@@ -30,6 +30,7 @@ class MyHomePage extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   fontSize: 30.0,
                   fontFamily: "CustomFont",
+                  color: Color(0xFF2f2d2c)
               ),
 
             )),
@@ -51,7 +52,7 @@ class MyHomePage extends StatelessWidget {
             SizedBox(
               height: 30,
               width: 320.0,
-              child: Divider(color: Colors.grey),
+              child: Divider(color: Color(0xFF9b9b9b)),
             ),
             DescriptionSection(),
             SizedBox(height: 10.0),
