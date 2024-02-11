@@ -1,3 +1,4 @@
+import 'package:capuccino/widgets/DescriptionSection.dart';
 import 'package:flutter/material.dart';
 import 'package:capuccino/widgets/HeroImageSection.dart';
 import 'package:capuccino/widgets/RatingSection.dart';
@@ -46,10 +47,11 @@ class MyHomePage extends StatelessWidget {
             SizedBox(height: 10.0),
             RatingSection(),
             SizedBox(
-              height: 10,
+              height: 30,
               width: 320.0,
               child: Divider(color: Colors.grey),
             ),
+            DescriptionSection(),
 
 
           ],
