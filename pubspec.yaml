@@ -64,6 +64,8 @@ flutter:
     - assets/images/Heart.jpg
     - assets/images/cappucino.jpg
     - assets/images/milk.jpg
+    - assets/images/wireframe-cappucino.png
+    - assets/images/cappucnio-image.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
